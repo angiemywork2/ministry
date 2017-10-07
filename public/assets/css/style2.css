@@ -9,7 +9,7 @@
 body {
 	
 	height: 100%;
-	background: url('../img/wings.jpg');
+	background: url('../img/wingsFull2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;	
@@ -24,7 +24,6 @@ h1 {
 	text-align: center;
 }
 
-/*TITLE*/
 
 h2 {
   
@@ -36,6 +35,11 @@ h2 {
 h3 {
 	color:blue;
 	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	font color='blue';
 
 }
 
