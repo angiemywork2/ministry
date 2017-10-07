@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Lobster', cursive;
   font-family: 'Pacifico', cursive;
+  font-family: 'Wendy-One', sans-serif;
   Red: #8A0D00
   Gold: #FCEF3F
 }
@@ -11,9 +12,7 @@ body {
 	background: url('../img/clouds.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
-  
-	
+  background-size: 100%;	
 	color:red;
 	font-style: italic;
 	
@@ -29,7 +28,9 @@ h1 {
 
 h2 {
   
-  color:blue;
+  font-family:'Wendy-One';
+  text-align: center;
+  text-shadow: bold;
 }
 
 h3 {
