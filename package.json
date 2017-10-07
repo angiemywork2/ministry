@@ -1,0 +1,25 @@
+{
+  "name": "l",
+  "version": "1.0.0",
+  "description": "webpage for a webministry full-stack using node.js, express, mysql, sequelize",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angiemywork2/ministry.git"
+  },
+  "author": "Angela Ragin, Taneah Patterson, Dawn Mills, Eliseo Mejia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angiemywork2/ministry/issues"
+  },
+  "homepage": "https://github.com/angiemywork2/ministry#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.13.5"
+  }
+}
