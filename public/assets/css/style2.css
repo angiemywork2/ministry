@@ -13,8 +13,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;	
-	color:red;
 	font-style: italic;
+	background-color: pink;
+	color: pink;
 	
 }
 
@@ -38,8 +39,10 @@ h3 {
 }
 
 h4 {
+	/*background-color: blue;*/
+	color: blue !important;
 	text-align: center;
-	font color='blue';
+
 
 }
 
