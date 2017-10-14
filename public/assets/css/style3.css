@@ -4,41 +4,77 @@
 		  height: 50px;
 		  margin-top: 10px;
 		  margin-right: 25px;
-		}
+}
 
-		body {
-    		background-color: #bbdefb ;/*teal lighten 2*/
-    		margin-left: 20px;
-    		margin-right: 20px;
-    		margin-bottom: 20px;
-    		margin-top: 20px;
-    		padding: 20px;
+body {
+		background-color: #bbdefb ;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		padding: 20px;
 
-  		}
+}
 
-  		.header {
-  			font-family: 'Shrikhand', cursive;
-        padding-top: 20px;
-  		}
+/*.jumbotron {
+  background-color: #67357F ;
+}*/
+
+/*.banner {
+  background-color: #67357F ;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin: center;
+}*/
+
+/*.jumbotron h1 {
+  background-color: #67357F ;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  /*margin: center;*/
+  /*text-shadow: 2px 2px #d1d1e0 ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}*/
+
+/*h1 {
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  margin: center;
+  text-shadow: 2px 2px #d1d1e0 ;
+}*/
+
+.header {
+	font-family: 'Shrikhand', cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #67357F
+
+}
       
-  		.card-image {
-  			height: 800px;
-  			padding: 20px;
-  			margin-top: 40px;
-  		}
+.card-image {
+	height: 800px;
+	padding: 20px;
+	margin-top: 40px;
+}
 
-  		.verse {
-			padding: 20px;
-  		}
+.verse {
+  padding: 20px;
+}
 
-  		#quote {
-			padding: 20px;
-			font-size: 15px;
-			font-weight: bold;
-  		}
+#quote {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
 
-  		#bio {
-  			font-family: 'Lora', serif;
-  			font-size: 15px;
-  		}
+#bio {
+	font-family: 'Lora', serif;
+	font-size: 15px;
+}
       
