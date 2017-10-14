@@ -1,48 +1,32 @@
-<h1 class="center-align">Blog Posts</h1>
-			<!-- handlebars to handle the dynamic blog post  -->
-		{{each cats}}
-			<div class="container">
-				<div class="row">
-					<div class="col s10 m10 l10 offset-m1" id="blog-entries">
-						<div class="card-panel light-blue lighten-5">
-							<div class="section">
-								<h4 class="grey-text" id="blogtitle">Title</h4>
-							</div>
-							<div class="divider"></div>
-							<div class="section">
-								<p id="blogtext">BLOG BODY</p>
-							</div>
-							<div class="divider"></div>
-							<div class="section">
-								<h5 class="grey-text" id="authorname">Author</h5>
-							</div>
+<div class="row">
+	<div class=" col s12 m12 l12 xl12 card-panel deep-purple lighten-1" id="blogContainer">
+		
+		<h1 class="center-align deep-purple lighten-1 white-text">Blog Posts</h1>
+
+		{{#for each}}
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m12 l12 xl12 offset-m1" id="blog-entries">
+					<div class="card-panel light-blue lighten-5">
+						<div class="section">
+							<h4 class="grey-text" id="blogtitle">Title</h4>
 						</div>
-						
+						<div class="divider"></div>
+						<div class="section">
+							<p id="blogtext">BLOG BODY</p>
+						</div>
+						<div class="divider"></div>
+						<div class="section">
+							<p id = "authortext">AUTHOR</p>
+						</div>
 					</div>
 				</div>
-			{{/each}}
-
-				<h1 class="center-align">Add a Post</h1>
-
-				<div class="row">
-					<form class="col s10 m10 l10 offset-m1">
-						<div class="row">
-							<div class="input-field col s12">
-								<input type="text" placeholder="Type in post Title" id= "postTitle" class="validate">
-								<label for="postTitle">Title</label>
-							</div>
-						</div>
-						<div class="row">
-							<div class="input-field col s12">
-								<textarea id="postBody" class="materialize-textarea"></textarea>
-								<label for= "postBody">Post</label>
-							</div>
-						</div>
-						<div class="row">
-							<div class=" input-field col s12">
-								<button class="btn waves-effect waves-light" type="submit" name="action">Submit <i class="material-icons right">send</i>
-								</button>
-							</div>
-						</div>
-				</div>
 			</div>
+		</div>
+		{{/each}}
+
+	</div>
+</div>
+
+<!-- import postBlog.js -->
+<script src="../public/assets/js/postBlog.js" type="text/javascript"></script>
