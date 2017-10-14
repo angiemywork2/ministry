@@ -1,64 +1,44 @@
-@font-face {
-  font-family: 'Lobster', cursive;
-  font-family: 'Pacifico', cursive;
-  font-family: 'Wendy-One', sans-serif;
-  Red: #8A0D00
-  Gold: #FCEF3F
-}
+#selfie {	  
+		  float: left;
+		  width: 50px;
+		  height: 50px;
+		  margin-top: 10px;
+		  margin-right: 25px;
+		}
 
-body {
-	
-	height: 100%;
-	background: url('../img/wingsFull2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;	
-	font-style: italic;
-	background-color: pink;
-	color: pink;
-	
-}
+		body {
+    		background-color: #bbdefb ;/*teal lighten 2*/
+    		margin-left: 20px;
+    		margin-right: 20px;
+    		margin-bottom: 20px;
+    		margin-top: 20px;
+    		padding: 20px;
 
-h1 {
-	font-family: 'Pacifico';
-	color:red;
-	text-align: center;
-}
+  		}
 
+  		.header {
+  			font-family: 'Shrikhand', cursive;
+        padding-top: 20px;
+  		}
+      
+  		.card-image {
+  			height: 800px;
+  			padding: 20px;
+  			margin-top: 40px;
+  		}
 
-/*h2 {
-  
-  font-family:'Wendy-One';
-  text-align: center;
-  text-shadow: bold;
-}
-*/
-h3 {
-	color:blue;
-	text-align: center;
-}
+  		.verse {
+			padding: 20px;
+  		}
 
-h4 {
-	/*background-color: blue;*/
-	color: #424242
-	text-align: center;
+  		#quote {
+			padding: 20px;
+			font-size: 15px;
+			font-weight: bold;
+  		}
 
-
-}
-
-h5{
-	color:red;
-}
-
-#Wings {
-
-	font-family: 'Dancing Script', cursive;
-	font-color: purple;
-	font-size: 70px;
-	padding-bottom: 40px;
-	padding-top: 20px;
-	margin-top: 40px;
-	text-shadow: 2px 2px #d1d1e0;
-}
-
-}
+  		#bio {
+  			font-family: 'Lora', serif;
+  			font-size: 15px;
+  		}
+      
