@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "Zorros!1",
-    "database": "database_development",
+    "database": "prayer_requestDB",
     "host": "localhost",
     "dialect": "mysql"
   },

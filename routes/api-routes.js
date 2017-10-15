@@ -43,7 +43,7 @@ module.exports = function(app) {
 		});
 	});
 	//Put request to edit
-	app.put("api/post", function(req, res), function(req, res) {
+	app.put("api/post", function(req, res) {
 		db.Blog.update(req.body,
 		{
 			where: {
