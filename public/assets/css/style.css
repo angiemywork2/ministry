@@ -1,44 +1,82 @@
-@font-face {
-  font-family: 'Lobster', cursive;
-  font-family: 'Pacifico', cursive;
-  font-family: 'Wendy-One', sans-serif;
-  Red: #8A0D00
-  Gold: #FCEF3F
-}
 
 body {
-	
-	height: 100%;
-	background: url('../img/clouds.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;	
-	color:red;
-	font-style: italic;
-	
+    font-size: 16pt;
+    height: 100%;
+    background: url('../img/background2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;	
 }
 
-h1 {
-	font-family: 'Pacifico';
-	color:red;
-	text-align: center;
+.jumbotron {
+    background-color: #67357F;
 }
 
-/*TITLE*/
 
-h2 {
-  
-  font-family:'Wendy-One';
-  text-align: center;
-  text-shadow: bold;
+.jumbotron h1{
+    font-size: 125px;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: center;
+    text-shadow: 2px 2px #d1d1e0 ;
 }
+
+.jumbotron img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    opacity: 50;
+}
+
+
+/*h1 {
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: center;
+    text-shadow: 2px 2px #d1d1e0 ;
+}*/
+
+.navbar {
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-wrapper {
+   background-color: #67357F;
+}
+
 
 h3 {
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  font-size: 72px;
 	color:blue;
 	text-align: center;
-
 }
 
 h5{
+
 	color:red;
+
+}
+
+p {
+  font-family: 'Pacifico';
+  font-size: 25px;
+}
+
+.site-footer {
+  padding: 1.5em;
+  font-size: 16px;
+  font-family: verdana;
+  color: pink;
+  background-color: #67357F;
+  background-size: 100%;
+  width: cover;
+  clear: left;
+  text-align: center;
 }
