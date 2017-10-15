@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: 'Lobster', cursive;
   font-family: 'Pacifico', cursive;
@@ -19,36 +20,57 @@ body {
 	color: pink;
 	
 }
+=======
 
-h1 {
-	font-family: 'Pacifico';
-	color:red;
-	text-align: center;
+
+body {
+
+	height: 100%;
+	background: url('../img/wingsFull2.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100%;	
+>>>>>>> 91565b46a3051b31690edee6d97ef6bcee80b9bf
+
 }
-
 
 h2 {
-  
-  font-family:'Wendy-One';
-  text-align: center;
-  text-shadow: bold;
+
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color: #730099;
+	font-size: 70px;
+	padding-bottom: 60px;
+	padding-top: 20px;
+	margin-top: 40px;
+	text-shadow: 2px 2px #d1d1e0;
 }
 
-h3 {
-	color:blue;
-	text-align: center;
+h3{
+	font-family: 'Playball', cursive;
+	font-size: 40px;
+	padding-bottom: 40px;
 }
 
 h4 {
+<<<<<<< HEAD
 	/*background-color: blue;*/
 	font-family: 'Rye';
 	color: blue !important;
 	text-align: center;
+=======
+	color: #424242
+	
+}
+>>>>>>> 91565b46a3051b31690edee6d97ef6bcee80b9bf
 
+.container{
+	padding-bottom: 40px;
 
+<<<<<<< HEAD
 
 }
+=======
+>>>>>>> 91565b46a3051b31690edee6d97ef6bcee80b9bf
 
-h5{
-	color:red;
 }
