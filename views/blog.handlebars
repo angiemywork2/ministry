@@ -3,21 +3,21 @@
 		
 		<h1 class="center-align purple darken-1 white-text">Blog Posts</h1>
 
-		{{#for each}}
+		{{#each blogs}}
 		<div class="container">
 			<div class="row">
 				<div class="col s12 m12 l12 xl12 offset-m1" id="blog-entries">
 					<div class="card-panel light-blue lighten-5">
 						<div class="section">
-							<h4 class="grey-text" id="blogtitle">Title</h4>
+							<h4 class="grey-text" id="blogtitle">{{title}}</h4>
 						</div>
 						<div class="divider"></div>
 						<div class="section">
-							<p id="blogtext">BLOG BODY</p>
+							<p id="blogtext">{{body}}</p>
 						</div>
 						<div class="divider"></div>
 						<div class="section">
-							<p id = "authortext">AUTHOR</p>
+							<p id = "authortext">Dale Washington</p>
 						</div>
 					</div>
 				</div>

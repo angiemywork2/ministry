@@ -1,11 +1,36 @@
 //dependencies
 var db = require("../models");
 
+var path = require("path");
 //exporting
 module.exports = function(app) {
 	
 	//Requests from the blog and post to the MySQL database
-		//routes that render handlebars pages
+	//route that render handlebars blog page
+	app.get("/blog", function(req,res) {
+		db.Blog.findAll({}).then(function(data) {
+			var hbsObject = {
+				blogs: data
+			};
+			console.log(hbsObject);
+			res.render('blog',hbsObject);
+		})
+	});
+
+	//route that renders csm page
+	app.get("/csm", function(req,res) {
+		res.sendFile(path.join(__dirname, "../public/assets/csm.html"));
+	})
+	//route that renders admin page
+	app.get("/admin", function(req, res) {
+		db.Blog.findAll({}).then(function(data) {
+			var hbsObject = {
+				blogs: data
+			};
+			console.log(hbsObject);
+			res.render('blog',hbsObject);
+		})
+	});
 	//Get all the the posts
 	app.get("/api/blog", function(req,res){
 		db.Blog.findAll({}).then(function(dbBlog) {
