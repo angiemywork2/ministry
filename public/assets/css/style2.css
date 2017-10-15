@@ -1,27 +1,4 @@
-<<<<<<< HEAD
-@font-face {
-  font-family: 'Lobster', cursive;
-  font-family: 'Pacifico', cursive;
-  font-family: 'Wendy-One', sans-serif;
-  font-family: 'Rye', cursive;
-  Red: #8A0D00
-  Gold: #FCEF3F
-}
-
-body {
-	
-	height: 80%;
-	background: url('../img/wings.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;	
-	font-style: italic;
-	background-color: pink;
-	color: pink;
-	
-}
-=======
-
+/*Psalm 91 page*/
 
 body {
 
@@ -30,7 +7,6 @@ body {
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: 100%;	
->>>>>>> 91565b46a3051b31690edee6d97ef6bcee80b9bf
 
 }
 
@@ -53,24 +29,12 @@ h3{
 }
 
 h4 {
-<<<<<<< HEAD
-	/*background-color: blue;*/
-	font-family: 'Rye';
-	color: blue !important;
-	text-align: center;
-=======
 	color: #424242
 	
 }
->>>>>>> 91565b46a3051b31690edee6d97ef6bcee80b9bf
 
 .container{
 	padding-bottom: 40px;
 
-<<<<<<< HEAD
-
-}
-=======
->>>>>>> 91565b46a3051b31690edee6d97ef6bcee80b9bf
 
 }
