@@ -1,15 +1,14 @@
-
 body {
     font-size: 16pt;
     height: 100%;
     background: url('../img/background2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;	
+    background-size: 100%;    
 }
 
 .jumbotron {
-    background-color: #67357F;
+    background-color: #67357F ;
 }
 
 
@@ -45,7 +44,7 @@ body {
 }
 
 .nav-wrapper {
-   background-color: #67357F;
+   background-color: #67357F ;
 }
 
 
@@ -54,13 +53,13 @@ h3 {
   padding-bottom: 40px;
   padding-top: 20px;
   font-size: 72px;
-	color:blue;
-	text-align: center;
+    color:blue;
+    text-align: center;
 }
 
 h5{
 
-	color:red;
+    color:red;
 
 }
 
@@ -74,7 +73,7 @@ p {
   font-size: 16px;
   font-family: verdana;
   color: pink;
-  background-color: #67357F;
+  background-color: #67357F ;
   background-size: 100%;
   width: cover;
   clear: left;
