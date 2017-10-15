@@ -1,14 +1,15 @@
+
 body {
     font-size: 16pt;
-    height: 100%;
+    
     background: url('../img/background2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;    
+    background-size: cover; 
 }
 
 .jumbotron {
-    background-color: #67357F ;
+    background-color: #67357F;
 }
 
 
@@ -44,7 +45,7 @@ body {
 }
 
 .nav-wrapper {
-   background-color: #67357F ;
+   background-color: #67357F;
 }
 
 
@@ -53,14 +54,8 @@ h3 {
   padding-bottom: 40px;
   padding-top: 20px;
   font-size: 72px;
-    color:blue;
-    text-align: center;
-}
-
-h5{
-
-    color:red;
-
+  color:blue;
+  text-align: center;
 }
 
 p {
@@ -68,12 +63,40 @@ p {
   font-size: 25px;
 }
 
+.paragraph {
+  /*padding-left: 10px;*/
+  font-family: 'Pacifico';
+  font-size: 24px;
+}
+
+.container-beloved h5{
+  padding-top: 100px;
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 75px;
+  font-size: 40px;
+  color:blue;
+}
+
+hr {
+  display: block;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 5px;
+  color: blue;
+}
+
+
+
+
 .site-footer {
   padding: 1.5em;
   font-size: 16px;
   font-family: verdana;
   color: pink;
-  background-color: #67357F ;
+  background-color: #67357F;
   background-size: 100%;
   width: cover;
   clear: left;
