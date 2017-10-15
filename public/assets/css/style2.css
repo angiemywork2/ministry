@@ -1,51 +1,40 @@
-@font-face {
-  font-family: 'Lobster', cursive;
-  font-family: 'Pacifico', cursive;
-  font-family: 'Wendy-One', sans-serif;
-  Red: #8A0D00
-  Gold: #FCEF3F
-}
+
 
 body {
-	
+
 	height: 100%;
 	background: url('../img/wingsFull2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;	
-	font-style: italic;
-	background-color: pink;
-	color: pink;
-	
-}
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100%;	
 
-h1 {
-	font-family: 'Pacifico';
-	color:red;
-	text-align: center;
 }
-
 
 h2 {
-  
-  font-family:'Wendy-One';
-  text-align: center;
-  text-shadow: bold;
+
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color: #730099;
+	font-size: 70px;
+	padding-bottom: 60px;
+	padding-top: 20px;
+	margin-top: 40px;
+	text-shadow: 2px 2px #d1d1e0;
 }
 
-h3 {
-	color:blue;
-	text-align: center;
+h3{
+	font-family: 'Playball', cursive;
+	font-size: 40px;
+	padding-bottom: 40px;
 }
 
 h4 {
-	/*background-color: blue;*/
-	color: blue !important;
-	text-align: center;
-
-
+	color: #424242
+	
 }
 
-h5{
-	color:red;
+.container{
+	padding-bottom: 40px;
+
+
 }
