@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "root",
-    "password": "root",
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "password": "Zorros!1",
+    "database": "prayer_requestDB",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
