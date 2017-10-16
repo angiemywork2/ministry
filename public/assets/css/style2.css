@@ -2,11 +2,16 @@
 
 body {
 
-	height: 100%;
+	/*height: 100%;*/
 	background: url('../img/wingsFull2.jpg');
   	background-repeat: no-repeat;
   	background-attachment: fixed;
-  	background-size: 100%;	
+  	background-size: cover;	
+
+}
+
+#wings {
+	font-family: 'Dancing Script', cursive;
 
 }
 
@@ -15,7 +20,7 @@ h2 {
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
 	color: #730099;
-	font-size: 70px;
+	font-size: 80px;
 	padding-bottom: 60px;
 	padding-top: 20px;
 	margin-top: 40px;
@@ -28,13 +33,34 @@ h3{
 	padding-bottom: 40px;
 }
 
-h4 {
-	color: #424242
+p {
+	color: #424242;
+	font-size: 22px;
+	font-family: 'Lora';
 	
 }
 
-.container{
-	padding-bottom: 40px;
+.container {
+	padding-bottom: 150px;
 
+}
 
+.navbar {
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-wrapper {
+   background-color: #67357F;
+}
+
+.site-footer {
+  padding: 1.5em;
+  font-size: 16px;
+  font-family: verdana;
+  color: pink;
+  background-color: #67357F;
+  background-size: 100%;
+  width: cover;
+  clear: left;
+  text-align: center;
 }
