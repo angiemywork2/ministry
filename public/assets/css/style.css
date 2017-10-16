@@ -42,8 +42,9 @@ body {
 
 .navbar {
   font-family: 'Pacifico', cursive;
-}
 
+}
+  
 .nav-wrapper {
    background-color: #67357F;
 }
@@ -52,9 +53,13 @@ body {
 h3 {
   font-family: 'Dancing Script', cursive;
   padding-bottom: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 72px;
+<<<<<<< HEAD
+  color: blue;
+=======
   color:blue;
+>>>>>>> 36d602c4807f3638a272cfb22e43bae4da1d3740
   text-align: center;
 }
 
@@ -74,7 +79,11 @@ p {
   font-family: 'Dancing Script', cursive;
   padding-bottom: 75px;
   font-size: 40px;
+<<<<<<< HEAD
+  color: blue;
+=======
   color:blue;
+>>>>>>> 36d602c4807f3638a272cfb22e43bae4da1d3740
 }
 
 hr {
@@ -86,6 +95,22 @@ hr {
   border-style: inset;
   border-width: 5px;
   color: blue;
+<<<<<<< HEAD
+}
+
+
+#social {
+  padding-top: 5em;
+}
+
+.container-twitter {
+  position: center;
+}
+
+.container-youtube {
+  position: center;
+=======
+>>>>>>> 36d602c4807f3638a272cfb22e43bae4da1d3740
 }
 
 
