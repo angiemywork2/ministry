@@ -1,24 +1,24 @@
-#selfie {   
-      float: left;
-      width: 50px;
-      height: 50px;
-      margin-top: 10px;
-      margin-right: 25px;
+#selfie {	  
+		  float: left;
+		  width: 50px;
+		  height: 50px;
+		  margin-top: 10px;
+		  margin-right: 25px;
       
 }
 
 body {
-    /*background-color: #bbdefb ;*/
-    margin-left: 20px;
-    margin-right: 20px;
-    /*margin-bottom: 20px;*/
-    margin-top: 20px;
-    padding: 20px;
+		/*background-color: #bbdefb ;*/
+		margin-left: 20px;
+		margin-right: 20px;
+		/*margin-bottom: 20px;*/
+		margin-top: 20px;
+		padding: 20px;
 
-    background: url('../img/background2.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover; 
+		background: url('../img/background2.jpg');
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-size: cover; 
 
 }
 
@@ -35,9 +35,9 @@ body {
   height: 100px;
 } 
 .card-image {
-  height: 800px;
-  padding-left: 20px;
-  margin-top: 40px;
+	height: 800px;
+	padding-left: 20px;
+	margin-top: 40px;
 }
 
 .verse {
@@ -57,10 +57,10 @@ body {
 }
 
 #bio {
-  font-family: 'Lora', serif;
-  font-size: 18px;
-  padding-right: 40px;
-  padding-left:20px;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	padding-right: 40px;
+	padding-left:20px;
 }
     
 .navbar {
