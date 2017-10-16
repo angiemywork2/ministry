@@ -4,7 +4,7 @@ var path = require('path');
 //Routes that handle the static HTML pages that the user gets sent to
 module.exports = function(app) {
 	
-	app.get("/home", function(req, res) {
+	app.get("/", function(req, res) {
 		res.sendFile(path.join(__dirname, "../public/assets/greaterworks.html"));
 	});
 
