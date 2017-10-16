@@ -12,23 +12,27 @@ $(document).ready(function() {
 		getBlogData(blogId);
 	}
 	//post references
-	var titleInput= $("#postTitle");
-	var bodyInput= $("#postBody")
-	var submit = $("#postBlog")
+	var titleInput= $("#title");
+	var bodyInput= $("#body");
+	var csmForm = $("#csm");
 	//event listener when submit button is clicked
-	$(submit).on('click', function handleSubmit(event) {
+	$(csmForm).on('submit', function handleSubmit(event) {
+		event.preventDefault();
 		//validate that the post has somthing in he title and body
-		if(!titleInput.val().trim() || !bodyInput.val()trim()) {
-			return;
-		}
+		if (!titleInput.val() || !bodyInput.val() ) {
+      return;
+    }
 		//object to post into database
 		var newBlog = {
 			title: titleInput.val().trim(),
 			body: bodyInput.val().trim()
 		};
+
+		console.log(newBlog);
+
 		//callback function that check if updating of making new post
 		if(updating) {
-			newPost.id = postId;
+			newBlog.id = blogId;
 			updateBlog(newBlog);
 		}else{
 			submitBlog(newBlog)
@@ -38,7 +42,7 @@ $(document).ready(function() {
 	//function that submits new post and brings user to blog page
 	function submitBlog(Blog) {
 		$.post('/api/blog/', Blog, function() {
-			window.location.hreg = "/blog";
+			window.location.href = "/blog";
 		})
 	};
 	//function to get post data if editiing

@@ -16,37 +16,35 @@
 
  		  <!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Greater Works Prophetic Ministry</title>
-</head>
-	
 
-	<body class="home-page -theme-light -page-index"><div id="main-wrap">
-
-		<div id="banner-wrap" class="background-custom-background">
-
-			
+		<title>CSM</title>
+	</head>
+	<body>
 		<nav>
-		    	<div class="nav-wrapper">
-		      
+		    	<div class="nav-wrapper purple darken-1">
+		      	
+
 		      		<ul id="nav-mobile" class="right hide-on-med-and-down">
 		       
 		        		<li class="home">
 		        			<a class="./assets/greaterworks.html" href="../assets/greaterworks.html">Home</a>
 		      			</li>
 
-		      			<li class="about">
-		       				<a class="./assets/aboutMe.html" href="../assets/aboutMe.html">Meet Dale</a>
+
+		      			<li class="about active">
+		       				<a class="./assets/aboutMe.html" href="../assets/aboutMe.html">Meet Dale<span class="sr-only"></span></a>
 		      			</li>
 
 		      			<li class="psalm">
 		        			<a class="./assets/psalm91.html" href="../assets/psalm91.html">Psalm 91</a>
 		      			</li>
-
-		      			<li class="message active">
-		        			<a class="./assets/csm.html" href="../assets/csm.html">Prophetic Messages<span class="sr-only"></span></a>
+                
+		      			<li class="message">
+		        			<a class="./assets/csm.html" href="../assets/blog.html">Prophetic Messages</a>
 		      			</li>
 						    
-						<!-- <li class="prayer">
+						    <!-- <li class="prayer">
+
 						        <a class="/prayer.html" href="#">Prayer</a>
 						    </li> -->
 
@@ -56,7 +54,7 @@
 		        
 		     		</ul>
 		    	</div>
-		</nav>
+		</nav> 
 
 		<div class="row">
 			<div class="col s12 m12 l12 xl12 card-panel purple darken-1">
@@ -64,35 +62,37 @@
 
 			<div class="row">
 				<div class="col sm12 offset-s1">
-					<a class="waves-effect light-blue lighten-5 grey-text btn-large">Go to Blog Posts</a>
+					<a href ="/blog" class="waves-effect light-blue lighten-5 grey-text btn-large">Go to Blog Posts</a>
+					<a href ="/admin" class="waves-effect light-blue lighten-5 grey-text btn-large">Go to Admin</a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="card-panel light-blue lighten-5 col s8 offset-s1">
 					<h1 class="center-align">Add or Edit a Post</h1>
-
+					<form id="csm">
 					<div class="row">
 						<form class="col s10 m10 l10 offset-m1">
 							<div class="row">
 								<div class="input-field col s12">
-									<input type="text" placeholder="Type in post Title" id= "postTitle" class="validate">
-									<label for="postTitle">Title</label>
+									<input type="text" placeholder="Type in post Title" id= "title">
+									<label for="title">Title</label>
 								</div>
 							</div>
 							<div class="row">
 								<div class="input-field col s12">
-									<textarea id="postBody" class="materialize-textarea"></textarea>
-									<label for= "postBody">Post</label>
+									<textarea id="body" class="materialize-textarea"></textarea>
+									<label for= "body">Post</label>
 								</div>
 							</div>
 							<div class="row">
 								<div class=" input-field col s12">
-									<button class="btn waves-effect light-blue lighten-5 grey-text" type="button" id="postBlog">Submit <i class="material-icons right">send</i>
+									<button class="btn waves-effect light-blue lighten-5 grey-text" type="submit">Submit <i class="material-icons right">send</i>
 									</button>
 								</div>
 							</div>
 						</form>
 					</div>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -105,8 +105,7 @@
 				<br>Created by: The Dream Team</br>
 			</footer>
 
-	
-	<script src="./js/csm.js" type="text/javascript"></script>
+<script src="../assets/js/csm.js" type="text/javascript"></script>
 
 	</body>
 </html>
