@@ -20,5 +20,15 @@ module.exports = function(app) {
 		res.sendFile(path.join(__dirname, "../public/assets/contact.html"));
 	});
 
+	app.get("/blog", function(req, res) {
+		res.sendFile(path.join(__dirname, "../public/assets/blog.html"))
+	});
 
+	app.get("/admin", function(req, res) {
+		res.sendFile(path.join(__dirname, "../public/assets/admin.html"))
+	});
+
+	app.get("/csm", function(req, res) {
+		res.sendFile(path.join(__dirname, "../public/assets/csm.html"))
+	});	
 };

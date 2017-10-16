@@ -1,14 +1,15 @@
+
 body {
     font-size: 16pt;
-    height: 100%;
+    
     background: url('../img/background2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;    
+    background-size: cover; 
 }
 
 .jumbotron {
-    background-color: #67357F ;
+    background-color: #67357F;
 }
 
 
@@ -41,26 +42,25 @@ body {
 
 .navbar {
   font-family: 'Pacifico', cursive;
-}
 
+}
+  
 .nav-wrapper {
-   background-color: #67357F ;
+   background-color: #67357F;
 }
 
 
 h3 {
   font-family: 'Dancing Script', cursive;
   padding-bottom: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 72px;
-    color:blue;
-    text-align: center;
-}
-
-h5{
-
-    color:red;
-
+<<<<<<< HEAD
+  color: blue;
+=======
+  color:blue;
+>>>>>>> 36d602c4807f3638a272cfb22e43bae4da1d3740
+  text-align: center;
 }
 
 p {
@@ -68,12 +68,60 @@ p {
   font-size: 25px;
 }
 
+.paragraph {
+  /*padding-left: 10px;*/
+  font-family: 'Pacifico';
+  font-size: 24px;
+}
+
+.container-beloved h5{
+  padding-top: 100px;
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 75px;
+  font-size: 40px;
+<<<<<<< HEAD
+  color: blue;
+=======
+  color:blue;
+>>>>>>> 36d602c4807f3638a272cfb22e43bae4da1d3740
+}
+
+hr {
+  display: block;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 5px;
+  color: blue;
+<<<<<<< HEAD
+}
+
+
+#social {
+  padding-top: 5em;
+}
+
+.container-twitter {
+  position: center;
+}
+
+.container-youtube {
+  position: center;
+=======
+>>>>>>> 36d602c4807f3638a272cfb22e43bae4da1d3740
+}
+
+
+
+
 .site-footer {
   padding: 1.5em;
   font-size: 16px;
   font-family: verdana;
   color: pink;
-  background-color: #67357F ;
+  background-color: #67357F;
   background-size: 100%;
   width: cover;
   clear: left;

@@ -1,38 +1,12 @@
 //dependencies
 var db = require("../models");
 
-var path = require("path");
 //exporting
 module.exports = function(app) {
 	
 	//Requests from the blog and post to the MySQL database
-	//route that render handlebars blog page
-	app.get("/blog", function(req,res) {
-		db.Blog.findAll({}).then(function(data) {
-			var hbsObject = {
-				blogs: data
-			};
-			console.log(hbsObject);
-			res.render('blog',hbsObject);
-		})
-	});
-
-	//route that renders csm page
-	app.get("/csm", function(req,res) {
-		res.sendFile(path.join(__dirname, "../public/assets/csm.html"));
-	})
-	//route that renders admin page
-	app.get("/admin", function(req, res) {
-		db.Blog.findAll({}).then(function(data) {
-			var hbsObject = {
-				blogs: data
-			};
-			console.log(hbsObject);
-			res.render('blog',hbsObject);
-		})
-	});
 	//Get all the the posts
-	app.get("/api/blog", function(req,res){
+	app.get("/api/blog/", function(req,res){
 		db.Blog.findAll({}).then(function(dbBlog) {
 			res.json(dbBlog);
 		});
@@ -51,10 +25,10 @@ module.exports = function(app) {
 	app.post("/api/blog", function(req, res) {
 		console.log(req.body);
 		db.Blog.create({
-			title: req.body.blogtitle,
-			body:req.body.blogtext
+			title: req.body.title,
+			body:req.body.body
 		}).then(function(dbBlog) {
-			res.json(dbPost);
+			res.json(dbBlog);
 		})
 	})
 	//Delete request from blog page
@@ -68,7 +42,7 @@ module.exports = function(app) {
 		});
 	});
 	//Put request to edit
-	app.put("api/post", function(req, res) {
+	app.put("/api/blog", function(req, res) {
 		db.Blog.update(req.body,
 		{
 			where: {

@@ -1,0 +1,19 @@
+.navbar {
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-wrapper {
+   background-color: #67357F;
+}
+
+.site-footer {
+  padding: 1.5em;
+  font-size: 16px;
+  font-family: verdana;
+  color: pink;
+  background-color: #67357F;
+  background-size: 100%;
+  width: cover;
+  clear: left;
+  text-align: center;
+}

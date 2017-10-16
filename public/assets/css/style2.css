@@ -1,36 +1,17 @@
-<<<<<<< HEAD
-@font-face {
-  font-family: 'Lobster', cursive;
-  font-family: 'Pacifico', cursive;
-  font-family: 'Wendy-One', sans-serif;
-  font-family: 'Rye', cursive;
-  Red: #8A0D00
-  Gold: #FCEF3F
-}
-
-body {
-	
-	height: 80%;
-	background: url('../img/wings.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;	
-	font-style: italic;
-	background-color: pink;
-	color: pink;
-	
-}
-=======
-
+/*Psalm 91 page*/
 
 body {
 
-	height: 100%;
+	/*height: 100%;*/
 	background: url('../img/wingsFull2.jpg');
   	background-repeat: no-repeat;
   	background-attachment: fixed;
-  	background-size: 100%;	
->>>>>>> 91565b46a3051b31690edee6d97ef6bcee80b9bf
+  	background-size: cover;	
+
+}
+
+#wings {
+	font-family: 'Dancing Script', cursive;
 
 }
 
@@ -39,7 +20,7 @@ h2 {
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
 	color: #730099;
-	font-size: 70px;
+	font-size: 80px;
 	padding-bottom: 60px;
 	padding-top: 20px;
 	margin-top: 40px;
@@ -52,25 +33,34 @@ h3{
 	padding-bottom: 40px;
 }
 
-h4 {
-<<<<<<< HEAD
-	/*background-color: blue;*/
-	font-family: 'Rye';
-	color: blue !important;
-	text-align: center;
-=======
-	color: #424242
+p {
+	color: #424242;
+	font-size: 22px;
+	font-family: 'Lora';
 	
 }
->>>>>>> 91565b46a3051b31690edee6d97ef6bcee80b9bf
 
-.container{
-	padding-bottom: 40px;
-
-<<<<<<< HEAD
+.container {
+	padding-bottom: 150px;
 
 }
-=======
->>>>>>> 91565b46a3051b31690edee6d97ef6bcee80b9bf
 
+.navbar {
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-wrapper {
+   background-color: #67357F;
+}
+
+.site-footer {
+  padding: 1.5em;
+  font-size: 16px;
+  font-family: verdana;
+  color: pink;
+  background-color: #67357F;
+  background-size: 100%;
+  width: cover;
+  clear: left;
+  text-align: center;
 }

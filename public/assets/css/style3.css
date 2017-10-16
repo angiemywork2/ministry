@@ -1,80 +1,84 @@
-#selfie {	  
-		  float: left;
-		  width: 50px;
-		  height: 50px;
-		  margin-top: 10px;
-		  margin-right: 25px;
+#selfie {   
+      float: left;
+      width: 50px;
+      height: 50px;
+      margin-top: 10px;
+      margin-right: 25px;
+      
 }
 
 body {
-		background-color: #bbdefb ;
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-bottom: 20px;
-		margin-top: 20px;
-		padding: 20px;
+    /*background-color: #bbdefb ;*/
+    margin-left: 20px;
+    margin-right: 20px;
+    /*margin-bottom: 20px;*/
+    margin-top: 20px;
+    padding: 20px;
+
+    background: url('../img/background2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover; 
 
 }
 
-/*.jumbotron {
-  background-color: #67357F ;
-}*/
-
-/*.banner {
-  background-color: #67357F ;
-  font-size: 100px;
-  font-family: 'Dancing Script', cursive;
-  padding-bottom: 100px;
-  padding-top: 100px;
-  margin: center;
-}*/
-
-/*.jumbotron h1 {
-  background-color: #67357F ;
-  font-size: 100px;
-  font-family: 'Dancing Script', cursive;
-  padding-bottom: 100px;
-  padding-top: 100px;
-  /*margin: center;*/
-  /*text-shadow: 2px 2px #d1d1e0 ;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}*/
-
-/*h1 {
-  font-family: 'Dancing Script', cursive;
-  padding-bottom: 40px;
-  padding-top: 20px;
-  margin: center;
-  text-shadow: 2px 2px #d1d1e0 ;
-}*/
-
 .header {
-	font-family: 'Shrikhand', cursive;
+  font-family: 'Dancing Script', cursive;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #67357F
+  
+
 
 }
-      
+.card-small {
+  height: 100px;
+} 
 .card-image {
-	height: 800px;
-	padding: 20px;
-	margin-top: 40px;
+  height: 800px;
+  padding-left: 20px;
+  margin-top: 40px;
 }
 
 .verse {
   padding: 20px;
+  padding-right: 40px;
+  padding-left: 20px;
+  font-family: 'Lora', serif;
+  font-size: 15px;
 }
 
 #quote {
   padding: 20px;
-  font-size: 15px;
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
   font-weight: bold;
+
 }
 
 #bio {
-	font-family: 'Lora', serif;
-	font-size: 15px;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  padding-right: 40px;
+  padding-left:20px;
 }
-      
+    
+.navbar {
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-wrapper {
+   background-color: #67357F;
+}  
+
+.site-footer {
+  padding: 1.5em;
+  font-size: 16px;
+  font-family: verdana;
+  color: pink;
+  background-color: #67357F;
+  background-size: 100%;
+  width: cover;
+  clear: left;
+  text-align: center;
+}
